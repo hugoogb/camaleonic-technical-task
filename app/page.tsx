@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { useAuthStore } from "@/lib/store/auth-store";
+import { ThemeToggle } from "@/components/theme-toggle";
 import {
   GalleryVerticalEnd,
   BarChart3,
@@ -30,6 +31,7 @@ export default function Home() {
             <span className="text-xl font-semibold">Camaleonic Analytics</span>
           </div>
           <div className="flex items-center gap-4">
+            <ThemeToggle />
             {isLoading ? (
               <div className="flex items-center gap-2">
                 <Loader2 className="text-muted-foreground size-4 animate-spin" />

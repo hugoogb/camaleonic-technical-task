@@ -12,6 +12,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { useAuthStore } from "@/lib/store/auth-store";
 import { authClient } from "@/lib/auth-client";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export function DashboardHeader() {
   const router = useRouter();
@@ -67,6 +68,7 @@ export function DashboardHeader() {
           <div className="hidden items-center gap-2 sm:flex">
             <div className="text-muted-foreground text-sm">{user?.email}</div>
           </div>
+          <ThemeToggle />
           <Button variant="ghost" size="sm" onClick={handleLogout}>
             <LogOut className="mr-2 size-4" />
             Logout
