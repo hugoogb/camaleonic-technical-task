@@ -48,7 +48,7 @@ export function SignupForm({
         password,
         name,
       });
-      router.push("/");
+      router.push("/dashboard");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to create account");
     } finally {
@@ -61,7 +61,7 @@ export function SignupForm({
     try {
       await authClient.signIn.social({
         provider: "github",
-        callbackURL: "/",
+        callbackURL: "/dashboard",
       });
     } catch (err) {
       setError(

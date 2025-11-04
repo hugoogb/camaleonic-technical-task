@@ -1,14 +1,23 @@
+"use client";
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { useAuthStore } from "@/lib/store/auth-store";
 import {
   GalleryVerticalEnd,
   BarChart3,
   Table2,
   TrendingUp,
   LineChart,
+  LogIn,
+  UserPlus,
+  LayoutDashboard,
+  Loader2,
 } from "lucide-react";
 
 export default function Home() {
+  const { isAuthenticated, user, isLoading } = useAuthStore();
+
   return (
     <div className="flex min-h-screen flex-col">
       {/* Header */}
@@ -21,12 +30,41 @@ export default function Home() {
             <span className="text-xl font-semibold">Camaleonic Analytics</span>
           </div>
           <div className="flex items-center gap-4">
-            <Button variant="ghost" asChild>
-              <Link href="/login">Login</Link>
-            </Button>
-            <Button asChild>
-              <Link href="/signup">Sign Up</Link>
-            </Button>
+            {isLoading ? (
+              <div className="flex items-center gap-2">
+                <Loader2 className="text-muted-foreground size-4 animate-spin" />
+                <span className="text-muted-foreground text-sm">
+                  Loading...
+                </span>
+              </div>
+            ) : isAuthenticated ? (
+              <>
+                <span className="text-muted-foreground hidden text-sm sm:inline">
+                  {user?.name}
+                </span>
+                <Button asChild>
+                  <Link href="/dashboard" className="gap-2">
+                    <LayoutDashboard className="size-4" />
+                    Go to Dashboard
+                  </Link>
+                </Button>
+              </>
+            ) : (
+              <>
+                <Button variant="ghost" asChild>
+                  <Link href="/login" className="gap-2">
+                    <LogIn className="size-4" />
+                    Login
+                  </Link>
+                </Button>
+                <Button asChild>
+                  <Link href="/signup" className="gap-2">
+                    <UserPlus className="size-4" />
+                    Sign Up
+                  </Link>
+                </Button>
+              </>
+            )}
           </div>
         </div>
       </header>

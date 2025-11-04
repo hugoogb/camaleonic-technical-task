@@ -34,7 +34,7 @@ export function LoginForm({
         email,
         password,
       });
-      router.push("/");
+      router.push("/dashboard");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to login");
     } finally {
@@ -47,7 +47,7 @@ export function LoginForm({
     try {
       await authClient.signIn.social({
         provider: "github",
-        callbackURL: "/",
+        callbackURL: "/dashboard",
       });
     } catch (err) {
       setError(
