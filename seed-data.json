@@ -1,6 +1,7 @@
 {
   "posts": [
     {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
       "date": "2024-01-15",
       "platform": "instagram",
       "likes": 2345,
@@ -11,6 +12,7 @@
       "engagementRate": 8.5
     },
     {
+      "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
       "date": "2024-01-15",
       "platform": "twitter",
       "likes": 1890,
@@ -21,6 +23,7 @@
       "engagementRate": 7.8
     },
     {
+      "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
       "date": "2024-01-14",
       "platform": "facebook",
       "likes": 1876,
@@ -31,6 +34,7 @@
       "engagementRate": 7.2
     },
     {
+      "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
       "date": "2024-01-14",
       "platform": "instagram",
       "likes": 3421,
@@ -41,6 +45,7 @@
       "engagementRate": 9.3
     },
     {
+      "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
       "date": "2024-01-13",
       "platform": "twitter",
       "likes": 3421,
@@ -51,6 +56,7 @@
       "engagementRate": 9.1
     },
     {
+      "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
       "date": "2024-01-13",
       "platform": "facebook",
       "likes": 2567,
@@ -61,6 +67,7 @@
       "engagementRate": 8.1
     },
     {
+      "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
       "date": "2024-01-12",
       "platform": "instagram",
       "likes": 3100,
@@ -71,6 +78,7 @@
       "engagementRate": 9.8
     },
     {
+      "id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e",
       "date": "2024-01-12",
       "platform": "twitter",
       "likes": 2890,
@@ -81,6 +89,7 @@
       "engagementRate": 8.4
     },
     {
+      "id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f",
       "date": "2024-01-11",
       "platform": "facebook",
       "likes": 2200,
@@ -91,6 +100,7 @@
       "engagementRate": 6.9
     },
     {
+      "id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a",
       "date": "2024-01-11",
       "platform": "instagram",
       "likes": 4123,
@@ -101,6 +111,7 @@
       "engagementRate": 10.5
     },
     {
+      "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
       "date": "2024-01-10",
       "platform": "twitter",
       "likes": 4100,
@@ -111,6 +122,7 @@
       "engagementRate": 10.2
     },
     {
+      "id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c",
       "date": "2024-01-10",
       "platform": "facebook",
       "likes": 1987,
@@ -121,6 +133,7 @@
       "engagementRate": 7.5
     },
     {
+      "id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d",
       "date": "2024-01-09",
       "platform": "instagram",
       "likes": 2890,
@@ -131,6 +144,7 @@
       "engagementRate": 8.8
     },
     {
+      "id": "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e",
       "date": "2024-01-09",
       "platform": "twitter",
       "likes": 3567,
@@ -141,6 +155,7 @@
       "engagementRate": 9.7
     },
     {
+      "id": "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f",
       "date": "2024-01-08",
       "platform": "facebook",
       "likes": 1650,
@@ -151,6 +166,7 @@
       "engagementRate": 6.5
     },
     {
+      "id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a",
       "date": "2024-01-08",
       "platform": "instagram",
       "likes": 2134,
@@ -161,6 +177,7 @@
       "engagementRate": 7.9
     },
     {
+      "id": "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b",
       "date": "2024-01-07",
       "platform": "twitter",
       "likes": 2789,
@@ -171,6 +188,7 @@
       "engagementRate": 8.6
     },
     {
+      "id": "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c",
       "date": "2024-01-07",
       "platform": "facebook",
       "likes": 3245,
@@ -181,6 +199,7 @@
       "engagementRate": 9.2
     },
     {
+      "id": "a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d",
       "date": "2024-01-06",
       "platform": "instagram",
       "likes": 3890,
@@ -191,6 +210,7 @@
       "engagementRate": 9.9
     },
     {
+      "id": "b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e",
       "date": "2024-01-06",
       "platform": "twitter",
       "likes": 2456,
@@ -201,6 +221,7 @@
       "engagementRate": 8.3
     },
     {
+      "id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f",
       "date": "2024-01-05",
       "platform": "facebook",
       "likes": 2890,
@@ -211,6 +232,7 @@
       "engagementRate": 8.1
     },
     {
+      "id": "d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a",
       "date": "2024-01-05",
       "platform": "instagram",
       "likes": 3123,
@@ -221,6 +243,7 @@
       "engagementRate": 8.7
     },
     {
+      "id": "e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b",
       "date": "2024-01-04",
       "platform": "twitter",
       "likes": 4567,
@@ -231,6 +254,7 @@
       "engagementRate": 11.2
     },
     {
+      "id": "f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c",
       "date": "2024-01-04",
       "platform": "facebook",
       "likes": 2345,
@@ -241,6 +265,7 @@
       "engagementRate": 7.8
     },
     {
+      "id": "a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d",
       "date": "2024-01-03",
       "platform": "instagram",
       "likes": 2789,
@@ -251,6 +276,7 @@
       "engagementRate": 8.2
     },
     {
+      "id": "b6c7d8e9-f0a1-4b2c-3d4e-5f6a7b8c9d0e",
       "date": "2024-01-03",
       "platform": "twitter",
       "likes": 3234,
@@ -261,6 +287,7 @@
       "engagementRate": 9.4
     },
     {
+      "id": "c7d8e9f0-a1b2-4c3d-4e5f-6a7b8c9d0e1f",
       "date": "2024-01-02",
       "platform": "facebook",
       "likes": 1987,
@@ -271,6 +298,7 @@
       "engagementRate": 7.3
     },
     {
+      "id": "d8e9f0a1-b2c3-4d4e-5f6a-7b8c9d0e1f2a",
       "date": "2024-01-02",
       "platform": "instagram",
       "likes": 3456,
@@ -281,6 +309,7 @@
       "engagementRate": 9.1
     },
     {
+      "id": "e9f0a1b2-c3d4-4e5f-6a7b-8c9d0e1f2a3b",
       "date": "2024-01-01",
       "platform": "twitter",
       "likes": 5234,
@@ -291,6 +320,7 @@
       "engagementRate": 12.1
     },
     {
+      "id": "f0a1b2c3-d4e5-4f6a-7b8c-9d0e1f2a3b4c",
       "date": "2024-01-01",
       "platform": "facebook",
       "likes": 4123,
@@ -303,6 +333,7 @@
   ],
   "followers": [
     {
+      "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
       "date": "2024-01-15",
       "platform": "instagram",
       "followers": 12345,
@@ -311,6 +342,7 @@
       "netGrowth": 222
     },
     {
+      "id": "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
       "date": "2024-01-12",
       "platform": "instagram",
       "followers": 12111,
@@ -319,6 +351,7 @@
       "netGrowth": 183
     },
     {
+      "id": "3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f",
       "date": "2024-01-09",
       "platform": "instagram",
       "followers": 11913,
@@ -327,6 +360,7 @@
       "netGrowth": 249
     },
     {
+      "id": "4d5e6f7a-8b9c-4d0e-1f2a-3b4c5d6e7f8a",
       "date": "2024-01-06",
       "platform": "instagram",
       "followers": 11646,
@@ -335,6 +369,7 @@
       "netGrowth": 267
     },
     {
+      "id": "5e6f7a8b-9c0d-4e1f-2a3b-4c5d6e7f8a9b",
       "date": "2024-01-03",
       "platform": "instagram",
       "followers": 11357,
@@ -343,6 +378,7 @@
       "netGrowth": 204
     },
     {
+      "id": "6f7a8b9c-0d1e-4f2a-3b4c-5d6e7f8a9b0c",
       "date": "2024-01-15",
       "platform": "facebook",
       "followers": 8976,
@@ -351,6 +387,7 @@
       "netGrowth": 166
     },
     {
+      "id": "7a8b9c0d-1e2f-4a3b-4c5d-6e7f8a9b0c1d",
       "date": "2024-01-12",
       "platform": "facebook",
       "followers": 8787,
@@ -359,6 +396,7 @@
       "netGrowth": 128
     },
     {
+      "id": "8b9c0d1e-2f3a-4b4c-5d6e-7f8a9b0c1d2e",
       "date": "2024-01-09",
       "platform": "facebook",
       "followers": 8631,
@@ -367,6 +405,7 @@
       "netGrowth": 170
     },
     {
+      "id": "9c0d1e2f-3a4b-4c5d-6e7f-8a9b0c1d2e3f",
       "date": "2024-01-06",
       "platform": "facebook",
       "followers": 8430,
@@ -375,6 +414,7 @@
       "netGrowth": 151
     },
     {
+      "id": "0d1e2f3a-4b5c-4d6e-7f8a-9b0c1d2e3f4a",
       "date": "2024-01-03",
       "platform": "facebook",
       "followers": 8252,
@@ -383,6 +423,7 @@
       "netGrowth": 142
     },
     {
+      "id": "1e2f3a4b-5c6d-4e7f-8a9b-0c1d2e3f4a5b",
       "date": "2024-01-15",
       "platform": "twitter",
       "followers": 3242,
@@ -391,6 +432,7 @@
       "netGrowth": 73
     },
     {
+      "id": "2f3a4b5c-6d7e-4f8a-9b0c-1d2e3f4a5b6c",
       "date": "2024-01-12",
       "platform": "twitter",
       "followers": 3169,
@@ -399,6 +441,7 @@
       "netGrowth": 84
     },
     {
+      "id": "3a4b5c6d-7e8f-4a9b-0c1d-2e3f4a5b6c7d",
       "date": "2024-01-09",
       "platform": "twitter",
       "followers": 3077,
@@ -407,6 +450,7 @@
       "netGrowth": 92
     },
     {
+      "id": "4b5c6d7e-8f9a-4b0c-1d2e-3f4a5b6c7d8e",
       "date": "2024-01-06",
       "platform": "twitter",
       "followers": 2974,
@@ -415,6 +459,7 @@
       "netGrowth": 81
     },
     {
+      "id": "5c6d7e8f-9a0b-4c1d-2e3f-4a5b6c7d8e9f",
       "date": "2024-01-03",
       "platform": "twitter",
       "followers": 2887,
@@ -423,6 +468,7 @@
       "netGrowth": 86
     },
     {
+      "id": "6d7e8f9a-0b1c-4d2e-3f4a-5b6c7d8e9f0a",
       "date": "2024-01-14",
       "platform": "instagram",
       "followers": 12234,
@@ -431,6 +477,7 @@
       "netGrowth": 176
     },
     {
+      "id": "7e8f9a0b-1c2d-4e3f-4a5b-6c7d8e9f0a1b",
       "date": "2024-01-11",
       "platform": "facebook",
       "followers": 8710,
@@ -439,6 +486,7 @@
       "netGrowth": 123
     },
     {
+      "id": "8f9a0b1c-2d3e-4f4a-5b6c-7d8e9f0a1b2c",
       "date": "2024-01-13",
       "platform": "twitter",
       "followers": 3208,
@@ -447,6 +495,7 @@
       "netGrowth": 64
     },
     {
+      "id": "9a0b1c2d-3e4f-4a5b-6c7d-8e9f0a1b2c3d",
       "date": "2024-01-10",
       "platform": "instagram",
       "followers": 12058,
@@ -455,6 +504,7 @@
       "netGrowth": 197
     },
     {
+      "id": "0b1c2d3e-4f5a-4b6c-7d8e-9f0a1b2c3d4e",
       "date": "2024-01-08",
       "platform": "facebook",
       "followers": 8556,
@@ -464,4 +514,3 @@
     }
   ]
 }
-
