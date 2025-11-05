@@ -16,10 +16,6 @@
   --color-sidebar-primary: var(--sidebar-primary);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar: var(--sidebar);
-  --color-chart-neutral: var(--chart-neutral);
-  --color-chart-6: var(--chart-6);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
   --color-chart-3: var(--chart-3);
   --color-chart-2: var(--chart-2);
   --color-chart-1: var(--chart-1);
@@ -106,9 +102,6 @@
   --chart-3: oklch(
     0.78 0.22 200
   ); /* Bright Cyan - Twitter (brighter for dark mode) */
-  --chart-neutral: oklch(
-    0.7 0.02 0
-  ); /* Grey - Single metrics (brighter for dark mode) */
   --sidebar: oklch(0.21 0.006 285.885);
   --sidebar-foreground: oklch(0.985 0 0);
   --sidebar-primary: oklch(0.623 0.214 259.815);
