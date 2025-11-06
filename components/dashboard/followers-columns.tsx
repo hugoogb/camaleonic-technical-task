@@ -17,7 +17,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { FollowerData } from "@/lib/types/social-media";
-import { getPlatformColor } from "@/lib/utils";
+import { getPlatformColor, formatDate } from "@/lib/utils";
 
 export const followersColumns: ColumnDef<FollowerData>[] = [
   {
@@ -34,7 +34,7 @@ export const followersColumns: ColumnDef<FollowerData>[] = [
       );
     },
     cell: ({ row }) => (
-      <div className="font-medium">{row.getValue("date")}</div>
+      <div className="font-medium">{formatDate(row.getValue("date"))}</div>
     ),
   },
   {
@@ -44,7 +44,7 @@ export const followersColumns: ColumnDef<FollowerData>[] = [
       const platform = row.getValue("platform") as string;
       return (
         <span
-          className={`rounded px-2 py-1 text-xs font-medium capitalize ${getPlatformColor(
+          className={`rounded border px-2 py-1 text-xs font-medium capitalize ${getPlatformColor(
             platform
           )}`}
         >

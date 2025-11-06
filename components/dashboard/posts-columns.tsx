@@ -12,7 +12,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { SocialMediaPost } from "@/lib/types/social-media";
-import { getPlatformColor, formatNumber } from "@/lib/utils";
+import { getPlatformColor, formatNumber, formatDate } from "@/lib/utils";
 
 export const postsColumns: ColumnDef<SocialMediaPost>[] = [
   {
@@ -28,7 +28,9 @@ export const postsColumns: ColumnDef<SocialMediaPost>[] = [
         </Button>
       );
     },
-    cell: ({ row }) => <div className="font-medium">{row.getValue("date")}</div>,
+    cell: ({ row }) => (
+      <div className="font-medium">{formatDate(row.getValue("date"))}</div>
+    ),
   },
   {
     accessorKey: "platform",
@@ -37,7 +39,9 @@ export const postsColumns: ColumnDef<SocialMediaPost>[] = [
       const platform = row.getValue("platform") as string;
       return (
         <span
-          className={`rounded px-2 py-1 text-xs font-medium capitalize ${getPlatformColor(platform)}`}
+          className={`rounded border px-2 py-1 text-xs font-medium capitalize ${getPlatformColor(
+            platform
+          )}`}
         >
           {platform}
         </span>
@@ -174,4 +178,3 @@ export const postsColumns: ColumnDef<SocialMediaPost>[] = [
     },
   },
 ];
-

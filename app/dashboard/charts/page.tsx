@@ -138,10 +138,6 @@ export default function ChartsPage() {
             </p>
           </div>
           <div className="flex items-center gap-2">
-            <Button variant="outline" className="gap-2">
-              <Calendar className="size-4" />
-              Last 30 Days
-            </Button>
             <Button
               variant="outline"
               size="sm"
