@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import { format } from "date-fns";
 import { useSocialMediaData } from "@/lib/hooks/use-social-media-data";
 import { DashboardSkeleton } from "@/components/dashboard/dashboard-skeleton";
 import { Button } from "@/components/ui/button";
@@ -228,17 +229,17 @@ export default function ChartsPage() {
                 axisLine={false}
                 tickMargin={8}
                 minTickGap={32}
-                tickFormatter={(value) =>
-                  new Date(value).toLocaleDateString("en-US", {
-                    month: "short",
-                    day: "numeric",
-                  })
-                }
+                tickFormatter={(value) => format(new Date(value), "MMM d")}
               />
               <YAxis tickLine={false} axisLine={false} tickMargin={8} />
               <ChartTooltip
                 cursor={false}
-                content={<ChartTooltipContent indicator="dot" />}
+                content={
+                  <ChartTooltipContent
+                    indicator="dot"
+                    labelFormatter={(value) => format(new Date(value), "PPP")}
+                  />
+                }
               />
               <ChartLegend content={<ChartLegendContent />} />
               <Area
@@ -308,17 +309,16 @@ export default function ChartsPage() {
                   axisLine={false}
                   tickMargin={8}
                   minTickGap={32}
-                  tickFormatter={(value) =>
-                    new Date(value).toLocaleDateString("en-US", {
-                      month: "short",
-                      day: "numeric",
-                    })
-                  }
+                  tickFormatter={(value) => format(new Date(value), "MMM d")}
                 />
                 <YAxis tickLine={false} axisLine={false} tickMargin={8} />
                 <ChartTooltip
                   cursor={false}
-                  content={<ChartTooltipContent />}
+                  content={
+                    <ChartTooltipContent
+                      labelFormatter={(value) => format(new Date(value), "PPP")}
+                    />
+                  }
                 />
                 <ChartLegend content={<ChartLegendContent />} />
                 <Line
