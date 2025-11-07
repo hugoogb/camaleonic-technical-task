@@ -1,15 +1,28 @@
 "use client";
 
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useSocialMediaData } from "@/lib/hooks/use-social-media-data";
 import { TableSkeleton } from "@/components/dashboard/table-skeleton";
 import { DataTable } from "@/components/ui/data-table";
 import { postsColumns } from "@/components/dashboard/posts-columns";
 import { followersColumns } from "@/components/dashboard/followers-columns";
+import { PlatformFilter } from "@/components/dashboard/platform-filter";
 import { Plus, Download, RefreshCw } from "lucide-react";
 
 export default function TablesPage() {
   const { posts, followers, isLoading, refetch, error } = useSocialMediaData();
+  const [postsFilter, setPostsFilter] = useState("");
+  const [followersFilter, setFollowersFilter] = useState("");
+
+  // Filter data based on platform
+  const filteredPosts = postsFilter
+    ? posts.filter((post) => post.platform === postsFilter)
+    : posts;
+
+  const filteredFollowers = followersFilter
+    ? followers.filter((follower) => follower.platform === followersFilter)
+    : followers;
 
   if (isLoading) {
     return <TableSkeleton />;
@@ -72,9 +85,12 @@ export default function TablesPage() {
         </div>
         <DataTable
           columns={postsColumns}
-          data={posts}
+          data={filteredPosts}
           searchKey="content"
-          searchPlaceholder="Search by content or platform..."
+          searchPlaceholder="Search by content..."
+          customFilter={
+            <PlatformFilter value={postsFilter} onChange={setPostsFilter} />
+          }
         />
       </div>
 
@@ -88,9 +104,13 @@ export default function TablesPage() {
         </div>
         <DataTable
           columns={followersColumns}
-          data={followers}
-          searchKey="platform"
-          searchPlaceholder="Search by platform or date..."
+          data={filteredFollowers}
+          customFilter={
+            <PlatformFilter
+              value={followersFilter}
+              onChange={setFollowersFilter}
+            />
+          }
         />
       </div>
     </div>
